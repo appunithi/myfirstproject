@@ -8,19 +8,18 @@ header {
 
     width: 100%;
     display: flex;
-    padding: 8px;
+    padding: 5px;
     background-color: #1e1f2b;
     position: fixed;
     top: auto;
-
 }
 
 .left-header {
     width: 40%;
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 37px;
+    font-size: 30px;
     color: #feae37;
-    padding: 6px 0 0 20px;
+    padding: 6px 0 0 30px;
 
 }
 
@@ -35,20 +34,19 @@ li {
 
 a {
     text-decoration: none;
-    color: black;
+    color: white;
+
 }
 
 .right-header li {
     display: inline-flex;
-    padding: 13px;
+    padding: 10px;
 }
 
 main {
     width: 100%;
     display: flex;
     background-image: url(/image/bg-hero.jpg);
-    background-blend-mode: lighten;
-    color: white;
 }
 
 .main-div-left {
@@ -68,22 +66,15 @@ main {
 
 .main-div-right img {
     width: 100%;
-
-}
-
-.main-div-right p {
-    font-size: small;
-    transform: rotate(360 deg);
-
 }
 
 .primary-table {
     background-color: #feae37;
     border: none;
     color: white;
-    padding: 15px 25px;
+    padding: 10px 17px;
     text-align: center;
-    border-radius: 2px;
+    border-radius: 3px;
 }
 
 .right-header li :hover {
@@ -105,13 +96,13 @@ main {
 .card1 {
     width: 20%;
     margin-right: 20px;
-    padding: 15px;
+    padding: 20px;
     background-color: white;
     box-shadow: 8px 1px 12px rgb(202, 196, 196);
 }
 
 .card h3 {
-    padding-top: 10px;
+    padding: 10px 0;
 }
 
 .card1:hover {
@@ -128,8 +119,18 @@ main {
 
 .main1-div-left {
     width: 50%;
-    padding-left: 150px;
+    padding-left: 140px;
 
+}
+.about12{
+    display: flex;
+
+}
+.about34{
+    display: flex;
+}
+.about-2{
+   margin-top: 50px;
 }
 
 .about-3 {
@@ -142,4 +143,69 @@ main {
 .about-3,
 .about-4 {
     padding: 5px 5px;
+    justify-content: center;
+}
+
+.main2-div-right {
+    margin-top: 50px;
+    width: 50%;
+    margin-right: 120px;
+    margin-left: 20px;
+}
+
+.main2-div-right,
+.aboutme {
+    padding: 13px 0;
+    padding-bottom: 9px;
+}
+
+.exp {
+    width: 100%;
+    display: flex;
+}
+
+.left-exp {
+    width: 50%;
+    display: flex;
+
+}
+
+.num-exp {
+    width: 20%;
+    font-size: 50px;
+    padding: 5px;
+    font-weight: 600;
+    color: #feae37;
+    text-align: center;
+
+
+}
+
+.numexp1 {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.exp2 {
+    font-weight: bolder;
+    padding-top: 4px;
+}
+.numexp1,
+.main-num {
+    padding: 15px 0 0 20px; 
+    justify-content: center;
+}
+
+h4 {
+    font-family: 'Pacifico', cursive;
+    font-size: 21px;
+    color: #feae37;
+}
+.foodmenu {
+    text-align: center;
+}
+.food{
+    display: flex;
+    padding: 12px 30% 0;
 }
