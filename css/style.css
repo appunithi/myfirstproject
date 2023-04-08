@@ -4,14 +4,19 @@
     box-sizing: border-box;
 }
 
+.bgimg{
+    background-image: url(/image/bg-hero.jpg);
+}
+
 header {
 
     width: 100%;
     display: flex;
     padding: 5px;
     background-color: #1e1f2b;
-    position: fixed;
-    top: auto;
+    position:sticky; 
+    height: 60px;
+   /* float: inherit; */
 }
 
 .left-header {
@@ -40,13 +45,16 @@ a {
 
 .right-header li {
     display: inline-flex;
-    padding: 10px;
+    padding: 20px;
 }
 
 main {
     width: 100%;
     display: flex;
-    background-image: url(/image/bg-hero.jpg);
+    background-color: #1e1f2b;
+    opacity: 0.9;
+    color: white;
+    
 }
 
 .main-div-left {
@@ -120,6 +128,7 @@ main {
 .main1-div-left {
     width: 50%;
     padding-left: 140px;
+    /* position: sticky; */
 
 }
 .about12{
@@ -209,3 +218,65 @@ h4 {
     display: flex;
     padding: 12px 30% 0;
 }
+.menu{
+    width: 100%;
+    display: flex;
+    padding: 20px 100px;
+}
+/* .left-menu{
+    width: 50%;} */
+
+.left-menu{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.right-menu, .right-menu2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
+}
+.right-menu,hr{
+    padding-right: 25px;
+    
+}
+#span1{
+    padding-left: 310px;
+    color: #feae37;
+    font-weight: 800;
+    font-size: x-large;
+}
+.menuli{
+    padding:5px;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+}
+.right-menu{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.right-menu,hr{
+    padding-right: 20px;
+    
+}
+#span2{
+    padding-left: 220px;
+    color: #feae37;
+    font-weight: 800;
+    font-size: x-large;
+}
+.menuli2{
+    padding:5px;
+}
+.menu2{
+    display: flex;
+    flex-direction: column;
+}
+
+
