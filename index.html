@@ -11,8 +11,6 @@
     <!-- google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
 </head>
 
@@ -20,12 +18,12 @@
 
     <header>
         <div class="left-header">
-            <ul>
-                <li> <img src="others/utensils-solid.svg" alt="" width="26px"> Restoran</li>
+            <ul class="main-heading">
+                <img src="others/utensils-solid.svg" alt="" width="20px"> Restoran
             </ul>
         </div>
         <div class="right-header">
-            <ul>
+            <ul class="main-heading">
                 <li><a href="">HOME </a></li>
                 <li><a href="">ABOUT</a></li>
                 <li> <a href="">SERVICE</a></li>
@@ -35,26 +33,19 @@
                 <BUtton class="primary-table">BOOK A TABLE</BUtton>
             </ul>
         </div>
-
-
-
     </header>
     <div class="bgimg">
         <main>
             <div class="main-div-left">
-                <h1>Enjoy Our
-                    Delicious Meal</h1>
+                <h2>Enjoy Our
+                    Delicious Meal</h2>
                 <p style="font-size:large;">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet
                     diam et eos. Clita erat
-                    ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p><br>
-
+                    ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
                 <button class="primary-table">BOOK A TABLE</button>
-                <br>
-                <br>
             </div>
             <div class="main-div-right">
                 <img src="image/hero.png" alt="">
-
             </div>
         </main>
     </div>
@@ -94,7 +85,7 @@
         </div>
         <div class="main2-div-right">
             <h4>about us <img src="others/minus-solid.svg " width="15px"></h4>
-            <h1>Welcome <img src="others/utensils-solid.svg" alt="" width="20px"> Restoran</h1>
+            <h1>Welcome to <img src="others/utensils-solid.svg" alt="" width="20px"> Restoran</h1>
             <p class="aboutme">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos
                 erat ipsum et
                 lorem et sit, sed stet lorem sit.</p><br>
@@ -307,16 +298,81 @@
     <!-- Reservation -->
     <div class="res">
         <div class="left-res">
-            <img src="image/video.jpg" alt="">
+            <img class="res-image" src="image/video.jpg" alt="">
+        </div>
+        <div class="res-main">
+            <div class="right-res">
+                <form action="/url" method="GET">
+                    <h4>Reservation <img src="others/minus-solid.svg" alt="" width="15px"></h4>
+                    <h1 class="res-heading">Book A Table Online</h1>
+                    <input type="text" name="first_name" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your email" required>
+                    <input type="datetime" placeholder="date and time">
+                    <input for="people" placeholder="No of people">
+                    <!-- <select  id="people" placeholder="no of people">
+                            <option value="people1">people1</option>
+                            <option value="people1">people2</option>
+                            <option value="people1">people3</option>
+                        </select> -->
+                    <textarea placeholder="special request" name="" id="" cols="30" rows="3"></textarea>
+                    <button class="res-button">booknow</button>
+                </form>
+            </div>
         </div>
     </div>
-    <div class="right-res">
-        <form action="/url" method="GET">
-            <p>Please enter your first  and last name:</p>
-            <input type="text" name="first_name" placeholder="Your Name" required>
-            <input type="email"  placeholder="Your email" required> 
-        </form>
+    <br>
+    <br>
+
+    <div class="team-number">
+        <h4>team number</h4>
+        <h2>Our Master Chefs</h2>
+
+        <div class="team-card">
+            <div class="team-card1">
+                <img class="card-img" src="image/team-1.jpg" alt="">
+                <h2>Full Name</h2>
+                <p>Designation</p>
+            </div>
+
+            <div class="team-card2">
+                <img class="card-img" src="image/team-1.jpg" alt="">
+                <h2>Full Name</h2>
+                <p>Designation</p>
+            </div>
+
+            <div class="team-card3">
+                <img class="card-img" src="image/team-1.jpg" alt="">
+                <h2>Full Name</h2>
+                <p>Designation</p>
+            </div>
+
+            <div class="team-card4">
+                <img class="card-img" src="image/team-1.jpg" alt="">
+                <h2>Full Name</h2>
+                <p>Designation</p>
+            </div>
+        </div>
     </div>
+    <div class="Test-team">
+        <h4>Testimonial</h4>
+        <p class="test-p">Our Clients Say!!!</p>
+    </div>
+    <div class="client-team">
+        <div class="clients-1">
+            <img src="others/icons8-get-quote-50.png" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quia, corrupti exercitationem, quo
+                voluptatibus neque tempora ipsum delectus temporibus sint dolorem harum quae ad nihil dolor suscipit
+                fugiat? Eaque, autem?</p>
+            <div class="about-clients">
+                <div class="client-imag">
+                    <img src="image/testimonial-1.jpg" alt="">
+                </div>
+                <h5>client name</h5>
+                <p>profession</p>
+            </div>
+        </div>
+    </div>
+
 
 </body>
 
