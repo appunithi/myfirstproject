@@ -13,11 +13,12 @@ header {
 
     width: 100%;
     display: flex;
-    padding: 5px;
+    justify-content: center;
+    /* text-align: center; */
     background-color: #1e1f2b;
     position:fixed;
     top: 0%;
- }
+}
 
 .left-header {
     width: 40%;
@@ -95,6 +96,7 @@ main {
     display: flex;
     margin: 50px 0;
     justify-content: center;
+    text-align: center;
 }
 
 .card1 {
@@ -395,11 +397,55 @@ p{
 .client-team{
     width: 100%;
     display: flex;
+    justify-content: center;
+    text-align: center;
 
 
 }
-.client-1{
-    width: 26%;
-    padding: 20px 40px;
-    box-shadow: 8px 1px 12px cornsilk;
+footer{
+    width: 100%;
+    display: flex;
+    background-color: #020744;
+    color: white;
+    padding: 30px 70px 20px;
 }
+.topfooter{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+
+}
+.company{
+    display: flex;
+    flex-direction: column;
+    /* padding: 0 30px; */
+    justify-content: center;
+    /* align-items: center; */
+    
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    /* padding: 0 30px; */
+    /* justify-content: center; */
+    
+
+}
+.opening{
+    display: flex;
+    flex-direction: column;
+    /* padding: 0 30px; */
+    /* justify-content: center; */
+    
+
+}
+.newsletter{
+    display: flex;
+    flex-direction: column;
+    /* padding: 0 30px; */
+    /* justify-content: center; */
+    
+
+}
+
