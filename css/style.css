@@ -303,9 +303,9 @@ hr {
 
 
 hr {
-   
-      border-top: 1px solid black;
-      padding: 0px;
+
+    border-top: 1px solid black;
+    padding: 0px;
 
 }
 
@@ -365,25 +365,27 @@ hr {
 }
 
 input {
-    padding: 15px 30px;
+    padding: 3% 8%;
     margin: 5px;
     border-radius: 5px;
 }
 
 textarea {
-    padding: 15px 120px;
+    padding: 3% 32%;
     margin: 5px;
     border-radius: 5px;
-    text-align: center;
-   
+    /* text-align: center; */
+
 
 }
-.first-form,.second-form{
+
+.first-form,
+.second-form {
     display: flex;
 }
 
 .res-button {
-    padding: 10px 202px;
+    padding: 3% 54%;
     margin: 5px;
     border-radius: 5px;
     text-transform: uppercase;
